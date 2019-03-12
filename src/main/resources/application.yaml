@@ -1,0 +1,6 @@
+spring:
+  rocketmq:
+    name-server-address: 39.106.208.40:9876
+    producer-group: ORDER_CENTRE_SEND_GROUP
+    send-msg-timeout: 5000
+    vip-channel-enabled: false
